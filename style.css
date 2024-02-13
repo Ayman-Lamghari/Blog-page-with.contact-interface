@@ -1,0 +1,178 @@
+body {
+    background-color: #333333;
+}
+header {
+   background: url('img/tn_picture1.jpg') no-repeat;
+   padding-bottom: 3%;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-decoration: underline;
+    font-size: xx-large;
+}   
+header p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    backdrop-filter: blur(2px);
+}
+section {
+    background-color: #FFFFF0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    text-align: center;
+    border: 2px dotted #FFDAB9;
+    box-shadow: 10px 5px 5px #B22222;
+}
+section h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#james {
+    width: 50%;
+    width: 60%;
+    border-radius: 50%;
+}
+#julia {
+    width: 50%;
+    width: 60%;
+    border-radius: 50%;
+}
+#michael {
+    width: 50%;
+    width: 60%;
+    border-radius: 50%;
+}
+#milli {
+    width: 50%;
+    width: 60%;
+    border-radius: 50%;
+}
+#roberta {
+    width: 50%;
+    width: 60%;
+    border-radius: 50%;
+}
+#victor {
+    width: 50%;
+    width: 60%;
+    border-radius: 50%;
+}
+/*contonaire du contenue du pet*/
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #B22222;
+    background-color: #FFFFF0;
+    box-shadow: 10px 5px 5px #B22222;
+}
+article {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    box-shadow: 20px 10px 10px #B22222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*section des div*/
+#pet-7 {
+    width: 50%;
+}
+#pet-8 {
+    width: 50%;
+
+}
+#pet-9 {
+    width: 50%;
+}
+#pet-10 {
+    width: 50%;
+}
+#pet-11 {
+    width: 50%;
+}
+#pet-12 {
+    width: 50%;
+}
+div p{
+    text-align: center;
+}
+
+/* Style the pet listings */
+#pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.pet-card {
+    border: 1px solid #FFFFF0;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.pet-image {
+    max-width: 60%;
+    height: auto;
+}
+
+/* footer section adjustment */
+marquee p {
+    color: #FFFFF0;
+}
+marquee a {
+    color: #B22222;
+}
+/* Customize styles as needed */
+
+/* responsive screen on the phones and tablets and other devices 
+besides the laptop */
+
+@media only screen and (max-width:1024px) {
+    section {
+        font-size: xx-small;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .pet-card {
+        font-size: x-small;
+    }
+    header {
+        display : flex;
+    }
+    article {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20% ;
+    }
+    /*section des div*/
+#pet-7 {
+    width: 50%;
+}
+#pet-8 {
+    width: 50%;
+
+}
+#pet-9 {
+    width: 50%;
+}
+#pet-10 {
+    width: 50%;
+}
+#pet-11 {
+    width: 50%;
+}
+#pet-12 {
+    width: 50%;
+}
+}
